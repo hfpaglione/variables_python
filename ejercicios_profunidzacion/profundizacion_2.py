@@ -33,3 +33,15 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
 
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+print("Nombre del socio")
+titular = str(input())
+print("Dni del socio")
+dni_titular = int(input())
+print("Edad del socio")
+edad_titular = int(input())
+print("Altura del socio")
+altuta_titular = float(input())
+
+print("Socio:", titular , "y DNI:", dni_titular)
+
+print("Socio:", titular , "Edad:", edad_titular, " Altura:", altuta_titular)
